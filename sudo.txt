@@ -1,0 +1,17 @@
+enter number -> an operant-> enter second number-> calculate before enter next 
+	operant-> an operant-> a number-> 
+
+1. get inner text as first number, and update the inputvariable.
+2. after enter operant, check if firstnumber, operant,  exist, 
+	yes-> assign secondnumber as the inputvariable, clear it
+	call operate, and store the result as the first number, and update 
+	the operant
+	no->
+	set first number as inputVariable and clear the variable, set operant
+	
+	
+3. after entering equal, check if second number exist, no -> clear operant and 
+	shows first number.
+	yes -> calculate result, call display result -> clear the innertext displayed, 
+	and display the result on screen.
+
